@@ -51,3 +51,25 @@ console.log(person1.geFullName());
 console.log(person2); */
 
 //the DOM
+// Single Element selectors
+const form = document.getElementById('my-form')
+
+//Multiple elements selectors
+
+const items = document.querySelectorAll('.item')
+console.log(items)
+
+// how to loop throught itemes
+
+const item = items.forEach((item) => console.log(item))
+
+// change things to the user interface 
+
+const ul = document.querySelector('.items')
+
+// ul.remove()
+// ul.lastElementChild.remove();
+ul.firstElementChild.textContent = 'Hello'
+ul.children[1].innerText = 'Abdoulaye'
+ul.lastElementChild.innerHTML = '<h1> Hello</h1>'
+
