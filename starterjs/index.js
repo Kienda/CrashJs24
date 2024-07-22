@@ -1,4 +1,4 @@
-// //constructor function
+/*// //constructor function
 
 // function Person(firstname, lastname, dob) {
 //     // to access the value of the object we the keyword this?
@@ -16,12 +16,12 @@
 
 // }
 
-// // can set prototype to the constructor properties for more readable way 
+// // can set prototype to the constructor properties for more readable way
 
 // Person.prototype.getBirthYear = function () { return this.dob.getFullYear(); }
 // Person.geFullName = function () { return `${this.firstName} ${this.lastName}` }
 
-// class 
+// class
 
 class Person {
     constructor(firstname, lastname, dob) {
@@ -42,10 +42,12 @@ class Person {
 
 }
 
-// instantiate object person 
+// instantiate object person
 
 const person1 = new Person('Abdoulaye', 'Diallo', '02-15-1998');
 const person2 = new Person('Thierno', 'Bah', '01-01-2009');
 
 console.log(person1.geFullName());
-console.log(person2);
+console.log(person2); */
+
+//the DOM
